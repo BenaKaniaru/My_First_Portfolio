@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  overflow-y: auto;
+}
+
+aside {
+  flex:1;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+header {
+  border-style: solid;
+  border-width: 1px;
+}
+
+footer {
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  padding: 10px;
+}
